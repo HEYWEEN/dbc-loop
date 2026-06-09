@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>内战 · 地表最菜队</title>
+  <link rel="stylesheet" href="./src/ui/styles.css" />
+</head>
+
+<body>
+  <!-- 背景与氛围层 -->
+  <div id="stage">
+    <div id="bg"></div>
+    <div id="bg-tint"></div>
+    <div id="candle"></div>
+    <div id="fog"></div>
+    <div id="grain"></div>
+    <div id="vignette"></div>
+
+    <!-- 立绘(全身) -->
+    <img id="portrait-img" class="hidden" alt="" />
+
+    <!-- 立绘(emoji 兜底框) -->
+    <div id="portrait-layer">
+      <div id="portrait" class="hidden">
+        <div id="portrait-frame"><span id="portrait-emoji"></span></div>
+        <div id="portrait-mono"></div>
+      </div>
+    </div>
+
+    <!-- HUD -->
+    <div id="hud">
+      <div id="loop-counter" class="hidden">
+        <span class="loop-label">循 环</span>
+        <span id="loop-num">0</span>
+      </div>
+    </div>
+
+    <!-- 对白框 -->
+    <div id="dialogue" class="hidden">
+      <div id="nameplate" class="hidden"><span id="speaker-name"></span></div>
+      <p id="dialogue-text"></p>
+      <span id="continue-indicator" class="hidden">▾</span>
+    </div>
+
+    <!-- 选项 -->
+    <div id="choices" class="hidden"></div>
+
+    <!-- 底部控制条 -->
+    <div id="controls" class="hidden">
+      <label class="ctrl">
+        <span>文字速度</span>
+        <input type="range" id="speed" min="1" max="5" value="1" />
+      </label>
+      <button class="ctrl-btn" id="audio-toggle" title="声音开关">♪ 声音:开</button>
+    </div>
+  </div>
+
+  <!-- 标题页 -->
+  <div id="title">
+    <div class="title-inner">
+      <p class="title-kicker" id="t-kicker">DBC · 地表最菜队</p>
+      <div class="title-rule"><span>❖</span></div>
+      <h1 class="title-main" id="t-main">内 战</h1>
+      <p class="title-sub" id="t-sub">第 <span id="t-num">一</span> 局</p>
+      <div class="title-rule"><span>❖</span></div>
+      <button id="start-btn">进入对局</button>
+      <button id="continue-btn" class="hidden">继续上一次对局</button>
+      <button id="gallery-btn" class="hidden">结局一览</button>
+    </div>
+    <div class="title-fog"></div>
+    <!-- 通关后解锁:消息提示彩蛋 -->
+    <button id="title-msg" class="hidden" title="你有一条新消息">
+      <span class="msg-icon">💬</span>
+      <span class="msg-dot"></span>
+      <span class="msg-label">DBC 群 (1)</span>
+    </button>
+  </div>
+
+  <!-- 章节卡 / 黑屏过场 -->
+  <div id="cardscreen" class="hidden">
+    <div id="card-text"></div>
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
