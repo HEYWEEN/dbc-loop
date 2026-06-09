@@ -12,6 +12,7 @@ import { interlude } from "./data/scenes/interlude.js";
 import { act3 } from "./data/scenes/act3.js";
 import { act4 } from "./data/scenes/act4.js";
 import { coda } from "./data/scenes/coda.js";
+import { characters } from "./data/characters.js";
 
 // 所有场景汇总(以后新增的幕在这里 spread 进来)
 const SCENES = {
@@ -51,6 +52,15 @@ function boot() {
   renderCover();       // 据 seenLoop 决定封面:初次"内战",循环后"循环内战"
   wireSettings();
   wireTitle();
+  preloadFigures();    // 标题页就在后台预下载立绘,消除首次出场延迟
+}
+
+/** 预加载所有角色立绘(后台静默下载,用到时已缓存) */
+function preloadFigures() {
+  for (const k in characters) {
+    const src = characters[k].img;
+    if (src) { const im = new Image(); im.src = encodeURI(src); }
+  }
 }
 
 /** 封面单向变化:只有经历过循环,才暴露"循环"二字 */
