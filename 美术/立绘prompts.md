@@ -21,22 +21,26 @@ consistency --ar 2:3
 ---
 
 ## 1. 月饼(主角 · 先画这张当锚点)
-**主色 金 #f4d35e ｜ ISFP ｜ 昆虫学者/调香师 ｜ 158 矮个、紧张菜**
+**主色 金 #f4d35e ｜ ISFP ｜ 昆虫学者/调香师 ｜ 紧张菜、哥特博物学者美学**
 
-设计:全队最矮最小只,圆脸大眼,一脸紧张(嘴微张像随时要结巴)。乱翘的短发别一枚月饼金发夹。昆虫学者元素:手提铜制捕虫网、腰挂发光萤火虫玻璃瓶、肩上停一只小飞蛾;调香师元素:一支小香水瓶。哥特探险少女装,金色滚边。怯生生抱着捕虫网。
+设计:正常半写实比例（非 chibi），但在全队里**明显偏矮**——身高差大约半个头到一个头，像全队里最小的妹妹。神态偏怯生紧张,但藏在眼睛里。**昆虫学者**核心：哥特维多利亚博物学家外套（金边翻领、扣着几枚真实蝴蝶标本胸针），里面是束腰哥特礼裙；腰间皮质工具带挂着小**标本瓶**和**放大镜**；一手捏着小玻璃标本盒，盒里封着一只发光的**萤火虫**；发上别一枚**飞蛾发夹**，微卷长发自然散落；流苏耳坠（小金虫形）。**月亮元素**：外套翻领内衬印有**新月暗纹**；腰带一枚**月牙形扣件**（月光石，微微泛蓝光）；玻璃标本盒侧面蚀刻着一轮满月轮廓。金/奶油主色。
 
 ```
-A petite nervous teenage girl, the smallest of the group, round soft face, big anxious
-eyes, mouth slightly open as if about to stutter, messy short hair with a single
-mooncake-gold hairpin, clutching a brass butterfly net, a glowing firefly in a small
-glass jar on her belt, a tiny moth resting on her shoulder, a little perfume vial,
-gothic explorer-schoolgirl outfit with warm gold trim, timid endearing expression,
-golden cream color theme, full body, three-quarter front-facing pose, gothic Victorian
+A graceful slender young woman, semi-realistic stylized anime proportions, VISIBLY shorter
+than her teammates by about half a head to a full head — the smallest of the group but NOT
+chibi, normal facial proportions; a delicate face with a shy nervous look in her eyes; long
+slightly-wavy hair loosely down, a small moth-shaped hair clip; tassel earrings with tiny
+golden beetle charms; a gothic Victorian naturalist's coat with gold-trimmed lapels,
+butterfly specimen brooches pinned to the collar, and a crescent moon pattern on the coat's
+inner lining; a fitted gothic dress underneath; a leather utility belt with small specimen
+vials, a brass magnifying glass, and a crescent-moon-shaped clasp buckle with a faint
+moonstone blue glow; holding a small glass specimen jar with a full moon etched on its side
+containing a single glowing firefly; warm golden-cream color theme; gothic Victorian
 dark-fantasy storybook illustration, Identity V meets Tim Burton aesthetic, hand-painted
-gouache and ink texture, semi-realistic stylized anime proportions, muted desaturated
-palette with warm candle-lit rim light, eerie melancholic mood, intricate costume
-detail, clean cel edges, centered single character, isolated on a FULLY TRANSPARENT
-BACKGROUND, no scenery, PNG with alpha channel --ar 2:3
+gouache and ink texture, muted desaturated palette with warm candle-lit rim light, gentle
+melancholic mood, intricate costume detail, clean cel edges, full body, three-quarter
+front-facing pose, centered single character, isolated on a FULLY TRANSPARENT BACKGROUND,
+no scenery, PNG with alpha channel --ar 2:3
 ```
 
 ---
@@ -144,27 +148,14 @@ BACKGROUND, no scenery, PNG with alpha channel --ar 2:3
 ## 7. ★ BOSS —— 真·月饼 / 戴着月饼脸的监管者
 **主色 金→血红 #f4d35e→#8e2b30 ｜ 大秘密里的怪物 ｜ 监管者形态 ｜ 汗毛直立又爽**
 
-设计核心:**她就是月饼,但全错了**。
-- **身高谎言成真**:被亿万次循环拉长成不自然的**瘦高扭曲**体型("158自称160"变成恐怖)。
-- **戴着月饼的脸**:面孔是月饼的,却空洞、开裂、像面具,眼窝渗黑、画面故障。
-- **昆虫学者堕落成怪物**:多出蛛/虫般的细长肢、身后一团飞蛾尘埃,香水化作瘴雾;裂开的月饼纹章。
-- 监管者气质:破败哥特长袍、锁链、狂欢之椅的影子;胸前挂着「饼爹」ID 牌。
-- 金色被血红侵蚀,低饱和 + 故障噪点。镜像/倒影母题(它就是她)。
+设计核心:**她就是月饼心里那个完美的昆虫学者，被亿万次循环喂养、扭曲后的"神"**。
+- **"158自称160"幻想成真**:高挑、修长、优雅到诡异——美得不像人。不是丑陋的瘦高,是**完美到瘆人**。
+- **戴着月饼的脸**:面孔是月饼的,却开裂如瓷面具、眼窝渗黑、画面故障。
+- **昆虫学者神格堕落**:博物学家长袍破败缠锁链；背后展开两扇巨型**飞蛾翅膀**（标本钉穿透翅脉，翅上图案是血红的眼纹）；无数飞蛾从她身上涌出；手持一根变异的巨大标本针（武器化）；胸前挂着「饼爹」ID 牌。
+- 金被血红侵蚀,**线条渗血**,低饱和 + 故障噪点。镜像/倒影母题(它就是她)。
 
 ```
-A towering uncanny hunter, unnaturally elongated and distorted tall thin body, wearing
-the cracked porcelain face of a cute mooncake girl like a mask, hollow black-leaking
-eye sockets, glitching seams across the face, extra spindly insect-and-spider limbs
-splayed behind her, a swarm of moths and dust trailing from her back, a shattered
-mooncake emblem on her chest, tattered gothic hunter robes wrapped in chains, the
-faint shadow of a rocket-chair behind her, a small dangling ID tag reading "饼爹",
-corrupted gold-into-blood-red palette, desaturated with subtle glitch noise, mirror
-and reflection motif, terrifying yet tragic uncanny aura, full body, front-facing
-menacing pose, gothic Victorian dark-fantasy storybook illustration, Identity V meets
-Tim Burton aesthetic, hand-painted gouache and ink texture, semi-realistic stylized
-proportions, muted desaturated palette with cold rim light and crimson glow, dread
-horror mood, intricate detail, clean cel edges, centered single character, isolated
-on a FULLY TRANSPARENT BACKGROUND, no scenery, PNG with alpha channel --ar 2:3
+A tall, slender, unnervingly graceful entomologist-goddess — the idealized naturalist version of the girl, fed and warped by countless loops into something divine and wrong; impossibly perfect elegant proportions (her "158 claiming 160" fantasy made real, beautiful past the point of human), but with a slight hunch to her posture, as if carrying an invisible weight — NOT a hunched monster but uncanny-flawless; wearing the cracked porcelain face of the girl like a mask, hollow black-leaking eye sockets, glitching seams; long flowing hair; a swarming storm of moths pouring from her body; a tattered naturalist's coat wrapped in heavy iron chains; clutching an oversized monstrously long specimen pin like a weapon; a small dangling ID tag reading "饼爹"; the faint shadow of a rocket-chair behind her; corrupted gold-into-blood-red palette, ink linework bleeding crimson, desaturated with glitch noise; mirror and reflection motif; terrifying yet tragically beautiful uncanny aura; gothic Victorian dark-fantasy, Identity V meets Tim Burton, hand-painted gouache and ink texture, cold rim light with crimson glow, dread horror mood, full body, front-facing, centered single character, isolated on a FULLY TRANSPARENT BACKGROUND, no scenery, PNG with alpha channel --ar 2:3
 ```
 
 ---
